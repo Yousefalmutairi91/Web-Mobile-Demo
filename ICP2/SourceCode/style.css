@@ -72,7 +72,7 @@ body {
 }
 
 .main-content img {
-  width: 272px;
+  width: 150px;
   height: 92px;
 }
 
@@ -175,14 +175,12 @@ footer a:hover {
 }
 
 .container {
-  width:5px;
   margin:5px;
   border: 5px solid #555;
+  width: 50px;
 }
 
 .box-img {
-  width: 25vw;
-  display: flex;
   justify-content: center;
-  align-items: center;
+  display: flex;
 }
