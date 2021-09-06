@@ -12,9 +12,10 @@ body {
 #nav-bar {
   height: 150px;
   margin-top: 20px;
-  margin-right: 30px;
   position: absolute;
-  right: 10px;
+  right: 20px;
+
+"
 }
 #nav-bar li {
   display: inline-block;
@@ -41,6 +42,7 @@ body {
   height: 30px;
   background-position: -132px -38px;
   background-size: 528px 68px;
+  right: 20px;
 }
 
 #menu-icon:hover {
@@ -183,4 +185,30 @@ footer a:hover {
 .box-img {
   justify-content: center;
   display: flex;
+}
+
+#profile {
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 32px;
+  width: 32px;
+  text-indent: -999em;
+  text-decoration: none;
+  border-radius: 50%;
+  right: 0px;
+
+}
+
+#icon {
+  position: absolute;
+  top: 7;
+  display: block;
+  text-indent: -999em;
+  text-decoration: none;
+  border-radius: 50%;
+  padding-right: 0px;
+  width: 25px;
+  height: 25px;
+  right: 40px;
 }
